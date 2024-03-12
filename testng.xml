@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tescases.Addrecord"/>
+      <class name="tescases.updaterecord"/>
+      <class name="tescases.Getallthecustomers"/>
+      <class name="tescases.Gettherecordbasedoncustomerid"/>
+      <class name="tescases.Deleterecord"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionTestSuite -->
